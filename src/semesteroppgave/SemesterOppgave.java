@@ -15,6 +15,7 @@ public class SemesterOppgave {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        fdsfd
         // TODO code application logic here
     }
     
