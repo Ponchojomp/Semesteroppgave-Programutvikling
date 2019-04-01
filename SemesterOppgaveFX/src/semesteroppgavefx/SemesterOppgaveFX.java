@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package javafxapplication1;
+package semesteroppgavefx;
 
 import javafx.application.Application;
 import javafx.event.ActionEvent;
@@ -17,7 +17,7 @@ import javafx.stage.Stage;
  *
  * @author leost
  */
-public class JavaFXApplication1 extends Application {
+public class SemesterOppgaveFX extends Application {
 
     @Override
     public void start(Stage primaryStage) {
