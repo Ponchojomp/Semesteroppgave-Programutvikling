@@ -1,36 +1,60 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package semesteroppgavefx;
 
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
-import javafx.fxml.FXML;
-import javafx.fxml.Initializable;
-import javafx.scene.control.Label;
+import javafx.fxml.*;
+import javafx.scene.control.*;
 
-/**
- *
- * @author leost
- */
+
 public class FXMLDocumentController implements Initializable {
     
     @FXML
-    private Label label;
+    private Label label, lblHei;
     
     @FXML
-    private void handleButtonAction(ActionEvent event) {
-        System.out.println("You clicked me!");
-        label.setText("Hello World!");
+    private TextField KontNavn, lokaleNavn, ArrKontakt, AntPlass;
+    
+    @FXML
+    private void handleButtonActionLokale(ActionEvent event) {
+        lokaleNavn.setVisible(true);
+        KontNavn.setVisible(false);
+        ArrKontakt.setVisible(false);
+        AntPlass.setVisible(false);
+        
+    }
+    
+    @FXML
+    private void handleButtonActionKontakperson(ActionEvent event) {
+       lokaleNavn.setVisible(false);
+        KontNavn.setVisible(true);
+        ArrKontakt.setVisible(false);
+        AntPlass.setVisible(false);
+    }
+    
+    @FXML
+    private void handleButtonActionArrangement(ActionEvent event) {
+        lokaleNavn.setVisible(false);
+        KontNavn.setVisible(false);
+        ArrKontakt.setVisible(true);
+        AntPlass.setVisible(false);
+    }
+    
+    @FXML
+    private void handleButtonActionBillett(ActionEvent event) {
+        lokaleNavn.setVisible(false);
+        KontNavn.setVisible(false);
+        ArrKontakt.setVisible(false);
+        AntPlass.setVisible(true);
     }
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
+        lokaleNavn.setVisible(false);
+        KontNavn.setVisible(false);
+        ArrKontakt.setVisible(false);
+        AntPlass.setVisible(false);
     }    
 
 }
