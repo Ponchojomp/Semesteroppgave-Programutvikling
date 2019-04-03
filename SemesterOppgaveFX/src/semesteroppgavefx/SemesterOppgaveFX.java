@@ -17,6 +17,7 @@ public class SemesterOppgaveFX extends Application {
 
         stage.setScene(scene);
         stage.show();
+%Kjeks
     }
 
     
