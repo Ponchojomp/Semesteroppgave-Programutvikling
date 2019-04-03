@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+<<<<<<< HEAD
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/leost/Documents/GitHub/Semesteroppgave-Programutvikling/SemesterOppgaveFX/src/semesteroppgavefx/FXMLDocumentController.java</file>
             <file>file:/C:/Users/leost/Documents/GitHub/Semesteroppgave-Programutvikling/SemesterOppgaveFX/src/semesteroppgavefx/SemesterOppgaveFX.java</file>
+=======
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1">
+        <file>
+            <url>src/semesteroppgavefx/FXMLDocumentController.java</url>
+            <bookmark id="1">
+                <name/>
+                <line>15</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/Users/larshoel/Documents/GitHub/Semesteroppgave-Programutvikling/SemesterOppgaveFX/src/semesteroppgavefx/FXMLDocument.fxml</file>
+            <file>file:/Users/larshoel/Documents/GitHub/Semesteroppgave-Programutvikling/SemesterOppgaveFX/src/semesteroppgavefx/FXMLDocumentController.java</file>
+            <file>file:/Users/larshoel/Documents/GitHub/Semesteroppgave-Programutvikling/SemesterOppgaveFX/src/semesteroppgavefx/SemesterOppgaveFX.java</file>
+>>>>>>> d8dfc27e42666c1575d5f6a496c36e030e40111f
         </group>
     </open-files>
 </project-private>
