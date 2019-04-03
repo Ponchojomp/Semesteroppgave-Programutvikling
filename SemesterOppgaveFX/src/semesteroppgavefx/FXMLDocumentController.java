@@ -30,7 +30,7 @@ public class FXMLDocumentController implements Initializable {
         KontNavn.setVisible(true);
         ArrKontakt.setVisible(false);
         AntPlass.setVisible(false);
-%Hei heiheiheiehie Mistet briller jaja
+
     }
     
     @FXML
