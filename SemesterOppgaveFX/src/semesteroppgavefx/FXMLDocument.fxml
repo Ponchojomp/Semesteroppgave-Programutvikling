@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
 <?import javafx.scene.control.TextField?>
-<?import javafx.scene.control.ToolBar?>
 <?import javafx.scene.layout.AnchorPane?>
 
 <AnchorPane id="AnchorPane" prefHeight="508.0" prefWidth="508.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="semesteroppgavefx.FXMLDocumentController">
     <children>
-      <ToolBar layoutX="36.0" layoutY="54.0">
-        <items>
-            <Button mnemonicParsing="false" onAction="#handleButtonActionLokale"        text="Lokale" />
-            <Button mnemonicParsing="false" onAction="#handleButtonActionKontakperson"  text="Kontaktperson" />
-            <Button mnemonicParsing="false" onAction="#handleButtonActionArrangement"   text="Arrangement" />
-            <Button mnemonicParsing="false" onAction="#handleButtonActionBillett"       text="Billett" />
-        </items>
-      </ToolBar>
-      <TextField fx:id="AntPlass"   layoutX="36.0" layoutY="144.0" promptText="Antall plasser"  text="Billett" />
-      <TextField fx:id="ArrKontakt" layoutX="36.0" layoutY="144.0" promptText="ArrKontakt"      text="Arrangement" />
-      <TextField fx:id="KontNavn"   layoutX="36.0" layoutY="144.0" promptText="KontkNavn"       text="Kontakt" />
-      <TextField fx:id="lokaleNavn" layoutX="36.0" layoutY="144.0" promptText="Lokale navn"     text="Lokale" />
+      <ButtonBar layoutX="14.0" layoutY="65.0" prefHeight="40.0" prefWidth="468.0">
+        <buttons>
+            <Button mnemonicParsing="false" onAction="#handleButtonActionKontakperson" text="Kontaktperson" />
+            <Button mnemonicParsing="false" onAction="#handleButtonActionArrangement" text="Arrangement" />
+            <Button mnemonicParsing="false" onAction="#handleButtonActionBillett" text="Billett" />
+            <Button mnemonicParsing="false" onAction="#handleButtonActionLokale" text="Lokale" />
+        </buttons>
+      </ButtonBar>
+      <TextField fx:id="AntPlass" layoutX="36.0" layoutY="144.0" promptText="Antall plasser" text="Billett" />
+      <TextField fx:id="ArrKontakt" layoutX="36.0" layoutY="144.0" promptText="ArrKontakt" text="Arrangement" />
+      <TextField fx:id="KontNavn" layoutX="36.0" layoutY="144.0" promptText="KontkNavn" text="Kontakt" />
+      <TextField fx:id="lokaleNavn" layoutX="36.0" layoutY="144.0" promptText="Lokale navn" text="Lokale" />
     </children>
 </AnchorPane>
